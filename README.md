@@ -1,7 +1,7 @@
 #בשביל להריץ את התוכנית לכתוב את זה:
-cd build
-make
-./TreeVisualization
+1. cd build
+2. make
+3. ./TreeVisualization
 
 
 # עצים - STL, Templates, and Iterators
