@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_TARGET_TreeVisualization_FILE /home/daniel/Desktop/CPP_EX4_24/build/TreeVisualization)

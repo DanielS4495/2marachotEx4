@@ -2,7 +2,8 @@
 
 #include <iostream>
 
-class Complex {
+class Complex
+{
 private:
     double real;
     double imag;
@@ -13,19 +14,23 @@ public:
     double getReal() const { return real; }
     double getImag() const { return imag; }
 
-    Complex operator+(const Complex& other) const {
+    Complex operator+(const Complex &other) const
+    {
         return Complex(real + other.real, imag + other.imag);
     }
 
-    Complex operator-(const Complex& other) const {
+    Complex operator-(const Complex &other) const
+    {
         return Complex(real - other.real, imag - other.imag);
     }
 
-    bool operator<(const Complex& other) const {
+    bool operator<(const Complex &other) const
+    {
         return (real < other.real) || (real == other.real && imag < other.imag);
     }
 
-    friend std::ostream& operator<<(std::ostream& os, const Complex& c) {
+    friend std::ostream &operator<<(std::ostream &os, const Complex &c)
+    {
         os << c.real << "+" << c.imag << "i";
         return os;
     }

@@ -1,0 +1,4 @@
+/home/daniel/Desktop/CPP_EX4_24/build/CMakeFiles/TreeVisualization.dir
+/home/daniel/Desktop/CPP_EX4_24/build/CMakeFiles/edit_cache.dir
+/home/daniel/Desktop/CPP_EX4_24/build/CMakeFiles/rebuild_cache.dir
+/home/daniel/Desktop/CPP_EX4_24/build/CMakeFiles/TreeVisualization_autogen.dir
